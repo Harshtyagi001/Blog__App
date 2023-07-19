@@ -1,0 +1,85 @@
+.settings{
+  display: flex;
+
+  .wrapper{
+    flex:9;
+    padding: 2rem;
+
+    .title{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      
+      .update{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        color: rgb(87, 7, 17);
+        font-weight: 550;
+      }
+
+      .delete{
+        color: rgb(164, 9, 9);
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    .settings-form{
+      display: flex;
+      flex-direction: column;
+
+      .profile{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        
+
+        img{
+          width: 8rem;
+          border-radius: 1rem;
+        }
+        label {
+        .icon{
+          cursor: pointer;
+          font-size: 2rem;
+          color: rgba(235, 224, 224, 0.951);
+        }
+      }
+      }
+
+      label{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        color:rgb(16, 0, 15);
+        color: wheat;
+      }
+
+      input{
+        padding: 1rem;
+        border-radius: 1rem;
+        border: none;
+        color: rgb(222, 33, 147);
+        background-color: rgb(78, 7, 66);
+        font-size: 1.2rem;
+         
+        &:focus{
+          outline: none;
+        }
+      }
+
+      .submit{
+        width: 150px;
+        align-self: center;
+        margin-top: 2rem;
+        border-radius: 1rem;
+        background-color: teal;
+        color: white;
+        padding: .5rem;
+        font-size: 1.2rem;
+        cursor: pointer;
+      
+      }
+    }
+  }
+}

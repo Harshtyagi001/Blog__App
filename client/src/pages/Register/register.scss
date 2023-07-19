@@ -1,0 +1,73 @@
+.register{
+  height: calc(100vh - 65px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  ),
+  url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  
+  .registerTitle{
+    font-size: 3rem;
+    color: rgb(62, 5, 69);
+    font-weight: 600;
+  }
+
+  .registerForm{
+    margin-top: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    
+    label{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 2rem;
+    color: rgb(94, 6, 44);
+    font-weight: 500;
+    }
+
+    .registerInput{
+      font-size: 1.4rem;
+      border: none;
+      background-color: rgb(88, 8, 57);
+      padding: 1rem;
+      border-radius: 1rem;
+      color: pink;
+
+      &:focus{
+        outline: none;
+      }
+    }
+
+    .registerButton{
+      margin-top: 2.4rem;
+      cursor: pointer;
+      background-color: teal;
+      border: none;
+      // width: 120px;
+      height: 50px;
+      border-radius: 1rem;
+      font-size: 2rem;
+      color: white;
+    }
+  }
+
+  .registerLoginButton{
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    background-color: lightcoral;
+    // padding: .8rem;
+    width: 120px;
+    height: 40px;
+    font-size: 1.4rem;
+    color: rgb(100, 10, 62);
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+  }
+}
